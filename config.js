@@ -66,8 +66,8 @@ module.exports = {
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? true : convertToBool(process.env.HEROKU),
-        API_KEY: process.env.HEROKU_API_KEY || '',
-        APP_NAME: process.env.HEROKU_APP_NAME || ''
+        API_KEY: process.env.HEROKU_API_KEY || '2d6de9fb-54dd-4f38-b8c8-5a7b4e827d93',
+        APP_NAME: process.env.HEROKU_APP_NAME || 'ragnok250'
     },
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './bot.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
