@@ -25,7 +25,47 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
 module.exports = {
     VERSION: 'v4.0.0',
-    ALIVE: process.env.ALIVE || "https://textpro.me/images/user_image/2023/11/655b120613349.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    ALIVE: process.env.ALIVE || "https://i.ibb.co/N23nFNy/IMG-20231118-WA0026.jpg Hey {sender}, *hׁׅ֮ꫀׁׅܻᨮ꫶ׁׅ֮ tׁׅhׁׅ֮ꫀׁׅܻꭈׁׅꫀׁׅܻ ꪱׁׅ' ꩇׁׅ݊ ϐׁׅ֒ᥣׁׅ֪υׁׅꫀׁׅܻ ℘ɑׁׅ֮ꪀׁׅժׁׅ݊ɑׁׅ֮ ||°* ♥️ 🪄
+██▀░░░░░░░░░░░░░▀██
+█│░░░░░░░░░░░░░░░│█
+▌│░░░░░░░░░░░░░░░│▐
+░└┐░░░░░░░░░░░░░┌┘░
+░░└┐░░░░░░░░░░░┌┘░░
+░░┌┘▄▄▄░░░░░▄▄▄└┐░░
+▌░│████▌░░░▐████│░▐
+█░│▐██▀░░▄░░▀██▌│░█
+█▌┘░░░░░▐█▌░░░░░└▐█
+██░░▄▄▓░▀█▀░▓▄▄░░██
+██▄─┘█▌░░░░░▐█└─▄██
+███░░▐─┬┬┬┬┬─▌░░███
+███▌░░┬┼┼┼┼┼┬░░▐███
+████▄░└┴┴┴┴┴┘░▄████
+█████▄░░░░░░░▄█████
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+ ⛹😋😁
+ ලස්සන හමුවීමක් ...
+  ηι¢є тσ мєєт уσυ
+   
+¤۩ජීවීතේ:ᴼⁿˡⁱⁿᵉ ආදරේ:ᴼᶠᶠⁱⁱⁿᵍ💔 හීන:ᴾᵉⁿᵈⁱⁿᵍදුක:ᵁᵖᵈᵃᵗⁱⁿᵍ🥺 ප්‍රශ්න:ᴵⁿᶜᵒᵐⁱⁿᵍ සල්ලි:ᴼᵘᵗᵍᵒⁱⁿᵍ🎴 ඒත් මම:ᵂᵒʳᵏⁱⁿᵍ 💞සතුට:ᴰᵒʷⁿˡᵒᵃᵈⁱⁿᵍ😇
+
+*➮ Owner - ƙׁׅ֑ɑׁׅ֮ꪀׁׅꪱׁׅ꯱ׁׅ֒hׁׅ֮ƙׁׅ֑ɑׁׅ֮ ժׁׅ݊ꫀׁׅܻ ꯱ׁׅ֒ꪱׁׅᥣׁׅ֪᥎꫶ׁׅɑׁׅ֮*
+*➮ 𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝚂𝙿𝙴𝙴𝙳 - 73Ms*
+*➮ 𝚁𝙰𝙼 𝚄𝚂𝙰𝙶𝙴 - 63.3GB*
+༺═─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝⃝─⃝─⃝─═༻
+
+📒 𝙳𝚘 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚐𝚎𝚝 𝚊𝚕𝚕 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 ?
+𝚃𝚢𝚙𝚎 & 𝚂𝚎𝚗𝚍 -  *.menu*  or  *.list*
+
+ConnectUs ✅
+*https://wa.me/+94728127082?text=*Hҽყ_Blue_Panda_||°*_♥️_🪄
+
+GroupLink  ❄️
+*~_https://chat.whatsapp.com/LMmXk7bI8CjJhgiPabjnpm_~*
+
+♡ ㅤ      ❍ㅤ        ⎙ㅤ    ⌲ 
+ˡᶦᵏᵉ     ᶜᵒᵐᵐᵉⁿᵗ     ˢᵃᵛᵉ     ˢʰᵃʳᵉ
+*#bluepanda*
+*#IKbot𝚣𝙵𝚊𝚖𝚒𝚕𝚢* \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
@@ -42,24 +82,24 @@ module.exports = {
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '6/10', // msgs/sec
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(edit AUTOUNMUTE_MSG)_',
     AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || true,
-    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
+    READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || true,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '',
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || 'Raganork~660c179e9511e4af3b71ca1885b4e0f9:7836704b7831356e6574673d').trim() || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us,120363116963909366@g.us',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+    BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.ibb.co/N23nFNy/IMG-20231118-WA0026.jpg;https://chat.whatsapp.com/LMmXk7bI8CjJhgiPabjnpm',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,212',
     CHATBOT: process.env.CHATBOT || 'off',
     HANDLERS: process.env.HANDLERS || '.,',
     STICKER_DATA: process.env.STICKER_DATA || "Raganork",
-    BOT_NAME: process.env.BOT_NAME || 'Sahan BOT',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.imgur.com/P7ziVhr.jpeg' : process.env.AUDIO_DATA,
+    BOT_NAME: process.env.BOT_NAME || 'Ｂｌｕｅ Ｐａｎｄａ',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.ibb.co/N23nFNy/IMG-20231118-WA0026.jpg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
     MODE: process.env.MODE || 'public',
     WARN: process.env.WARN || '4',
